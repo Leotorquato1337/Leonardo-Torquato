@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora Simples</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="calculadora">
+		<h2>Calculadora Simples</h2>
+		<input id="num1" placeholder="Digite um número: "><br><br>
+		<input id="num2" placeholder="Digite outro número: "><br><br>
+
+		<input checked type="radio" id="box1" name="sign-area" value="add">+
+		<input type="radio" id="box2" name="sign-area" value="subtract">-
+		<input type="radio" id="box3" name="sign-area" value="multiply">*
+		<input type="radio" id="box4" name="sign-area" value="divide">/ <br><br>
+
+		<button type="button" id="calcular" onClick="calcular()">Calcular</button><br><br>
+		<h1 id="resultado"></h1>
+	</div>
+</body>
+
+<script src="index.js"></script>
+</html>
